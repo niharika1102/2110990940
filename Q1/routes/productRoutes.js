@@ -6,7 +6,7 @@ const router = express.Router();
 
 const productsMap = {}; // Map to store products with their IDs
 const companies = ["AMZ", "FLP", "SNP", "MYN", "AZO"];
-// const categories = ["Phone", "Computer", "TV", "Earphone", "Tablet", "Charger", "Mouse", "Keypad", "Bluetooth", "Pendrive", "Remote", "Speaker", "Headset", "Laptop", "PC"];
+const categories = ["Phone", "Computer", "TV", "Earphone", "Tablet", "Charger", "Mouse", "Keypad", "Bluetooth", "Pendrive", "Remote", "Speaker", "Headset", "Laptop", "PC"];
 
   
 // GET /categories/categoryname/products ROUTE FOR SEARCHING FROM SPECIFIC CATEGORY
